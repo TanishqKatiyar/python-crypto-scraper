@@ -27,3 +27,6 @@ def fetch_data(url):
 if __name__ == '__main__':
     print('Running scraper...')
 
+if __name__ == '__main__':
+    print('Running scraper...')
+
