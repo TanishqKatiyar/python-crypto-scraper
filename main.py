@@ -42,3 +42,6 @@ try:
 except Exception as e:
     logging.error(f'Error parsing: {e}')
 
+import pandas as pd
+import numpy as np
+
