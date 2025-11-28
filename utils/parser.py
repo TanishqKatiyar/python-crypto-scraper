@@ -61,3 +61,6 @@ def fetch_data(url):
     response = requests.get(url)
     return response.json()
 
+import pandas as pd
+import numpy as np
+
