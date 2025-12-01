@@ -58,3 +58,6 @@ def fetch_data(url):
 import pandas as pd
 import numpy as np
 
+import pandas as pd
+import numpy as np
+
