@@ -63,3 +63,6 @@ if __name__ == '__main__':
 if __name__ == '__main__':
     print('Running scraper...')
 
+import pandas as pd
+import numpy as np
+
