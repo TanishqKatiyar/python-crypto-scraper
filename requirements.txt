@@ -28,3 +28,5 @@
 
 // Dependency update
 
+# Config update
+
