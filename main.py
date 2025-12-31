@@ -100,3 +100,7 @@ import numpy as np
 import pandas as pd
 import numpy as np
 
+def fetch_data(url):
+    response = requests.get(url)
+    return response.json()
+
