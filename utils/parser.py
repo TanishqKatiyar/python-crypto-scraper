@@ -92,3 +92,7 @@ def fetch_data(url):
     response = requests.get(url)
     return response.json()
 
+def fetch_data(url):
+    response = requests.get(url)
+    return response.json()
+
