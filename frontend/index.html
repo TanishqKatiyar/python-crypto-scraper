@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Scanner Pro | Tanishq Katiyar</title>
+    <!-- Google Fonts for Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Chart.js for Sparklines -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <div class="dashboard-container">
+        <header class="glass-header">
+            <div class="branding">
+                <h1>CryptoScanner <span class="accent">PRO</span></h1>
+                <p>Real-time volatility tracking algorithm crafted by Tanishq Katiyar</p>
+            </div>
+            <div class="metrics">
+                <div class="status-indicator">
+                    <span class="pulse"></span> Core Live
+                </div>
+            </div>
+        </header>
+
+        <div class="controls glass-panel">
+            <h2 style="margin:0; font-family: 'Space Grotesk'">Hyper-Volatile Radar</h2>
+            <p style="margin:5px 0 0 0; color: #a1a1aa; font-size: 0.9rem;">
+                Our algorithmic backend continuously scrapes global markets identifying severe trading anomalies and swings.
+            </p>
+        </div>
+
+        <div id="loading" class="loading-state">
+            Establishing connection to backend scraping engine...
+        </div>
+
+        <main id="crypto-grid" class="crypto-grid"></main>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
